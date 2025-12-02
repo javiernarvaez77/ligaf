@@ -1,0 +1,36 @@
+# .htaccess para Liga de Fútbol de Nariño
+# Configuración optimizada para XAMPP local
+
+# Página de inicio por defecto
+DirectoryIndex index.php index.html
+
+# Habilitar mod_rewrite
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /ligaf/
+
+    # Redirigir / a index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^$ index.php [L]
+</IfModule>
+
+# Charset UTF-8
+AddDefaultCharset UTF-8
+
+# Tipos MIME para archivos comunes
+<IfModule mod_mime.c>
+    AddType application/javascript js
+    AddType application/json json
+    AddType image/webp webp
+    AddType image/svg+xml svg svgz
+</IfModule>
+
+# Desactivar listado de directorios
+Options -Indexes
+
+# Proteger archivos sensibles
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

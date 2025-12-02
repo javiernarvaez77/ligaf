@@ -1,0 +1,24 @@
+# robots.txt para Liga de Fútbol de Nariño
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ligafutbolnarino.com/sitemap.xml
+
+# Crawl-delay (opcional, reduce la carga del servidor)
+Crawl-delay: 10
+
+# Bloquear archivos específicos (si fuera necesario)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Permitir específicamente recursos importantes
+Allow: /styles.css
+Allow: /script.js
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$

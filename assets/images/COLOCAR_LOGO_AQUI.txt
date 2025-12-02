@@ -1,0 +1,36 @@
+═══════════════════════════════════════════════════════════════
+  📁 INSTRUCCIONES PARA EL LOGO
+═══════════════════════════════════════════════════════════════
+
+👉 COLOCA EL LOGO OFICIAL DE LA LIGA EN ESTA CARPETA
+
+Nombre del archivo: logo.png
+Ubicación: /assets/images/logo.png
+
+ESPECIFICACIONES RECOMENDADAS:
+───────────────────────────────────────────────────────────────
+Formato:         PNG con fondo transparente
+Dimensiones:     300x100 px (o proporcional)
+Peso máximo:     200 KB
+Resolución:      72-150 dpi
+
+IMPORTANTE:
+───────────────────────────────────────────────────────────────
+✅ Debe llamarse exactamente: logo.png
+✅ Usar fondo transparente (.png)
+✅ Optimizar el tamaño del archivo (TinyPNG.com)
+✅ Asegurarse de que sea legible en tamaños pequeños
+
+UBICACIONES DONDE SE USA EL LOGO:
+───────────────────────────────────────────────────────────────
+1. Header de todas las páginas
+2. Footer de todas las páginas
+3. Favicon (convertir a .ico)
+
+SI NO TIENES EL LOGO TODAVÍA:
+───────────────────────────────────────────────────────────────
+1. Descárgalo desde: https://ligadefutboldenarino.com
+2. O solicítalo al departamento de comunicaciones
+3. Temporalmente, el sitio mostrará un placeholder
+
+═══════════════════════════════════════════════════════════════
